@@ -1,0 +1,20 @@
+<nav class="navbar">
+  <div class="navbar-container">
+    <div class="navbar-brand">
+      <a href="#home">Mi Portafolio</a>
+    </div>
+    
+    <div class="navbar-menu" [class.active]="menuOpen">
+      <a href="#sobre-mi" class="navbar-item color-1">Sobre mí</a>
+      <a href="#proyectos" class="navbar-item color-2">Proyectos</a>
+      <a href="#habilidades" class="navbar-item color-3">Habilidades</a>
+      <a href="#contacto" class="navbar-item color-4">Contacto</a>
+    </div>
+    
+    <button class="navbar-burger" (click)="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</nav>

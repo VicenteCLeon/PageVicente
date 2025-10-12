@@ -1,2 +1,171 @@
+<div class="background-container">
+  <div class="gradient-background"></div>
+  
+  <app-top-bar></app-top-bar>
+  
+  <main class="main-content">
+    <!-- Sección Hero/Inicio -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <h1 class="hero-title">Hola, soy Vicente Cisternas</h1>
+        <p class="hero-subtitle">Estudiante de Ingeniería en Informática</p>
+        <p class="hero-description">
+          Bienvenido a mi portafolio. Aquí encontrarás mis proyectos, habilidades y formas de contacto.
+        </p>
+        <div class="hero-buttons">
+          <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+          <a href="#contacto" class="btn btn-secondary">Contactar</a>
+        </div>
+      </div>
+    </section>
 
-<app-user> </app-user>
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="section">
+      <div class="container">
+        <h2 class="section-title">Sobre Mí</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Actualmente estoy cursando mi 6to semestre en la Pontificia Universidad Católica de Valparaíso.
+          Mi interés se centra en el desarrollo de software, con un creciente y profundo interés en el campo de la Inteligencia Artificial. 
+        En este espacio presento mi trayectoria y alguno de los proyectos realizados por mi persona hasta el momento
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Proyectos</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <div class="placeholder-image">Proyecto 1</div>
+            </div>
+            <div class="project-info">
+              <h3>Aula Virtual</h3>
+              <p>Plataforma de gestion de cursos en línea.</p>
+              <div class="project-tags">
+                <span class="tag">Java</span>
+                <span class="tag">SQL</span>
+                <span class="tag">JavaFX</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="placeholder-image">Proyecto 2</div>
+            </div>
+            <div class="project-info">
+              <h3>ByteBuster</h3>
+              <p>Juego de plataformas 2D.</p>
+              <div class="project-tags">
+                <span class="tag">Java</span>
+                <span class="tag">libGDX</span>
+                <span class="tag">Gradle</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="placeholder-image">Proyecto 3</div>
+            </div>
+            <div class="project-info">
+              <h3>RacingWeb</h3>
+              <p>Ecomerce de ropa.</p>
+              <div class="project-tags">
+                <span class="tag">TypeScript</span>
+                <span class="tag">Angular</span>
+                <span class="tag">SCSS</span>
+                <span class="tag">Ionic</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section id="habilidades" class="section">
+      <div class="container">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+            <h3>Lenguajes de Programación</h3>
+            <ul>
+              <li>C</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Desarollo Web</h3>
+            <ul>
+              <li>Angular</li>
+              <li>React</li>
+              <li>HTML/CSS</li>
+              <li>NodeJS</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          
+          <div class="skill-category">
+            <h3>Base de Datos</h3>
+            <ul>
+              <li>PostgreSQL</li>
+              <li>MySQL</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Herramientas</h3>
+            <ul>
+              <li>Git</li>
+              <li>VS Code</li>
+              <li>Figma</li>
+              <li>Excel</li>
+              <li>PowerBI</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-content">
+          <p class="contact-intro">
+            ¡Hablemos!
+          </p>
+          <div class="contact-links">
+            <a href="mailto:vicentecisternas.leon@gmail.com" class="contact-link">
+              📧 vicentecisternas.leon@gmail.com
+            </a>
+            <a href="https://github.com/VicenteCLeon" class="contact-link" target="_blank">
+              🔗 GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/vicente-cisternas-936b72293/" class="contact-link" target="_blank">
+              💼 LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Vicente Cisternas Leon. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <router-outlet></router-outlet>
+</div>
