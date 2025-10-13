@@ -149,12 +149,10 @@
 
 .project-image {
   height: 200px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 
 .project-image img {
